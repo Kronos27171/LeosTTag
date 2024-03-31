@@ -6,21 +6,21 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+API_ID = int(getenv("API_ID", "27161094"))
+API_HASH = getenv("API_HASH", "e276fc988275662897ea40db91500b75")
+BOT_TOKEN = getenv("BOT_TOKEN", "7176732389:AAEUGJ0ihAORJNu947xmqnDdL35TqUu5Dj8")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 500))
-LOGGER_ID = int(getenv("LOGGER_ID", ""))
-OWNER_ID = int(getenv("OWNER_ID", 5931622575))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1001432285922"))
+OWNER_ID = int(getenv("OWNER_ID", 6813742852))
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "",
+    "https://github.com/Kronos27171/P-/tree/master",
 )
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Matrax_sohbet")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/o1GaddaR")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/o1GaddaR")
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
-STRING1 = getenv("STRING_SESSION", "")
+STRING1 = getenv("STRING_SESSION", "BABjqerwKXnjoyLaaf7v9gnrKnyzT82DSnbq5KZ4FPf5uXaFNIutzyJUYxeOLijJ6AQcQ9O8LE0x9hMZOQBQxGwpwfSIpZnl7CIfpNxzW1hX9aQRBahUwMd-AX3zTdfdFKIP55cGmeovbFeVaLZCTgnf00WN3kXzOvQxtdZUIL0z-Af5ao5ARSvu7V5-70ZLtkezDXfc_az-YhChH_99-NljaZFBQSKGzycgnVNrEtp6aLWP-B44Wz6uxTsORtEmEsuch1QFFx5kHtPSXcsT7GRTlNxF5g81mNi4-h3rwrlJWlUEJOWhKBZt0xPJcupiWxrQJEbeZZiMCcazouYTWXSGAAAAAZYhdwQA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
