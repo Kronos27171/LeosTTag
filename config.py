@@ -15,7 +15,7 @@ LOGGER_ID = int(getenv("LOGGER_ID", "-1001432285922"))
 OWNER_ID = int(getenv("OWNER_ID", 6813742852))
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Kronos27171/P-/tree/master",
+    "https://github.com/Kronos27171/P-",
 )
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/o1GaddaR")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/o1GaddaR")
