@@ -18,7 +18,7 @@ UPSTREAM_REPO = getenv(
     "https://github.com/Kronos27171/LeosTTag",
 )
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/o1GaddaR")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/o1GaddaR")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Q2GaddaR")
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 STRING1 = getenv("STRING_SESSION", "BAACW1bMLx1BAOKWW4IFgwxkI61I_X023GFa2NoCSBL8jwmCjsOiVi3ElUkpWAf35uOMjNZc6pNZcmn7b3TiBrVmrU6AhQ1o1tFGpMLaFU5-ul4BYKqU1kz682fDFppHx_mgTy_K9fJMsjgGEm0Xx_mMGeARZTEciIh9mvEa81ddRc7VIahtb6eauH4uX5V3lQVzNHrya7k9lxzJ7AuYEsrUWW4Wa-j53Rw7Jx7twcLmDEnHqgeKlGylBcLTSCxsPJ2NfjHd5J1dpBP6eY1kKKhUUZ4HmW6N_DKKLr1Dxu09QmmpIZTAEVfghVox1YygMdkUKaeD7sYdXjeocx-t_b-bAAAAAZ2bg88A")
 STRING2 = getenv("STRING_SESSION2", None)
@@ -54,14 +54,14 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/e03cc83b0c9219c804c9e.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/9d43720a49a6a9baa885f.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://te.legra.ph/file/b8a0c1a00db3e57522b53.jpg"
 )
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
 STATS_IMG_URL = "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg"
-TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/9d43720a49a6a9baa885f.jpg"
 TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
 STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
 SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
