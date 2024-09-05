@@ -8,7 +8,7 @@ load_dotenv()
 
 API_ID = int(getenv("API_ID", "20416838"))
 API_HASH = getenv("API_HASH", "c393e906f7d2610ad5322af34ee4197d")
-BOT_TOKEN = getenv("BOT_TOKEN", "6625853323:AAF2Ahurxz2KeuvIsNb0Qoec1DiawejFTIY")
+BOT_TOKEN = getenv("BOT_TOKEN", "6625853323:AAEWexdIagE7FQqlvYnUZHbIq8R8DmeG1rk")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://hakoqq27:Hakan2717@cluster0.qpyasii.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 500))
 LOGGER_ID = int(getenv("LOGGER_ID", "-1002140930364"))
@@ -57,15 +57,15 @@ START_IMG_URL = getenv(
     "START_IMG_URL", "https://te.legra.ph/file/b8a0c1a00db3e57522b53.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/9d43720a49a6a9baa885f.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/f7912b86c79b736c2e5bf.jpg"
 )
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
 STATS_IMG_URL = "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg"
 TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
 TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
-STREAM_IMG_URL = "https://te.legra.ph/file/b8a0c1a00db3e57522b53.jpg"
+STREAM_IMG_URL = "https://telegra.ph/file/3d5424b7f19a6f2e41e85.jpg"
 SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
-YOUTUBE_IMG_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
+YOUTUBE_IMG_URL = "https://telegra.ph/file/7ad11d3ef1687cbb79651.jpg"
 SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/37d163a2f75e0d3b403d6.jpg"
 SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/b35fd1dfca73b950b1b05.jpg"
 SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/95b3ca7993bbfaf993dcb.jpg"
